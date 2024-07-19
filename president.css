@@ -1,0 +1,155 @@
+
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.candidate-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.candidate {
+    text-align: center;
+}
+
+.candidate img {
+    width:150px ;
+    height: 150px ;
+    border-radius: 800px;
+    position: relative;
+}
+
+label {
+    font-size: 18px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #113fbe;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 450px;
+}
+
+.submit-button:hover {
+    background-color: #5c9dde;
+}
+
+
+
+.slide-content{
+    margin: 0 40px;
+     display: flex;
+    position: relative;
+}
+.card{
+    border-radius: 25px;
+    background-color: #fff;
+    width: 300px;
+    display: flex;
+    padding-top: 0px;
+    margin: 24px 0 5px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+}
+.image-content,
+.card-content{
+    display: flex;
+    align-items: center;
+    padding: 10px 14px ;
+    flex-direction: column;
+
+}
+
+.overlay{
+    position:relative; 
+    width: 300px;
+    border-radius: 25px 25px  25px ;
+    background-color: #4070f4;
+}
+
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+.card-image{
+    position: relative;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #050505;
+    padding-bottom: 5px;
+    text-align: justify;
+
+}
+
+nav{
+    width: 94%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #5c9dde;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+
+}
+
